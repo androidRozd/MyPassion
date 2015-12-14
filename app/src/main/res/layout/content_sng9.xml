@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        1.Вот он я…  Твоим величием смирён,\n
+        Благодатью освобождён. \n
+        Вот он я…  Нечистый, грешный человек, \n
+        Омытый жертвою за грех. \n
+        На кресте распятый Божий Сын страдал, \n
+        За грех твой умирал, чтоб я свободен стал\n"
+                android:textSize="16sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Припев: \n
+                Ты – велик! Ты – велик! \n
+                Меня покрыла милость Твоя\n
+                К новой жизни воскресила она\n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        2.Вот он я… Твоей любовью восхищён, \n
+        Прощаю потому что прощён. \n
+        Вот он я…Знаю что я нужен Тебе, \n
+        Освящён, очищен в огне\n
+        На кресте распятый Божий Сын страдал\n,
+        За грех твой умирал, чтоб я свободен стал\n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

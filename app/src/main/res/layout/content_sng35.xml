@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         1.День величніший за всі, \n         Смерть здолавши \n         Ти мене звільнив\n         Заспівай, бо Ісус живий\n         Гріб порожній, хрест пустий. \n         Переміг Ти все, щоб ми жили\n         Всім скажи, що Ісус живий, \n         Він живий\n"
+                android:textSize="20sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 Приспів: \n                 О, дивний день, \n                 Дивний день\n                 Ти гріх весь змив з мене\n                 О, дивний день, \n                 Дивний день\n                 Я інший відтепер\n                 Навік змінив мене \n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         2.Поруч Тебе стану я, \n         Вільний в променях Твого лиця, \n         Ось я Твій, Господи, Ти - мій. \n         Вічна радість, дивний мир \n         І нарешті нас покине біль\n         Торжествуй, бо Ісус живий\n         Він живий\n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Місток: \n
+                О, що за славний час, \n
+                Що за славне Ім'я. \n
+                Господь мене спас! \n
+                О, що за славний час, \n
+                Що за славне Ім'я\n"
+                android:textSize="19sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

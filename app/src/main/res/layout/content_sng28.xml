@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                1.На початку було Слово, \n
+                І Слово було Бог, \n
+                I Слово стало тілом, \n
+                І між нами було, \n
+                Ми бачили цю славу, \n
+                Що явив нам Бог-Отець, \n
+                І життя, що було в Ньому – \n
+                Світло для людей. \n"
+                android:textSize="18sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Приспів: \n
+                Господь промовив Слово – \n
+                Нас змінив навіки\n
+                Гріх утратив силу, - \n
+                Вільні ми! \n
+                Ми маємо спасіння, \n
+                Ми є Божі діти, \n
+                Бог промовив Слово – \n
+                Вільні ми! \n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                2.Ти освітлюєш мій шлях, \n
+                Ти - світильник для ніг, \n
+                Ти - єдиний Хліб життя, \n
+                Мій щоденний Хліб, \n
+                Ти - меч святий і гострий, \n
+                Що відтинає гріх, \n
+                Ми зцілені Тобою, \n
+                Народжені згори. \n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Мост: \n
+                Повік віків Слово Твоє \n
+                Стоятиме, амінь! \n
+                Повік віків Слово Твоє \n
+                Стоятиме, амінь!\n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

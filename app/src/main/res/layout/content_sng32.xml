@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                1.Від найвищих вершин \n
+                До глибин у морях\n
+                У творивах сяє величність Твоя, \n
+                Від осіннього листу \n
+                До квіту весни\n
+                Все творіння возносить \n
+                До Тебе пісні\n
+                І звіщає: \n"
+                android:textSize="16sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Приспів: \n
+                Невимовний і Нестримний, \n
+                Зорі на небі вмістив \n
+                І дав кожній ім’я, \n
+                Ти Дивовижний Бог! \n
+                Нездоланний і Всесильний, \n
+                В трепеті з наших колін \n
+                Величаєм Царя, \n
+                Ти Дивовижний Бог. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                2.Показав кожній блискавці, \n
+                Де її шлях, \n
+                І комори для снігу \n
+                Звів на небесах, \n
+                Світло сонця ввімкнув, \n
+                Запустив його хід, \n
+                В прохолоду нічну \n
+                Одягаєш Ти світ, \n
+                Незбагненно…\n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Приспів 2: \n
+                Невимовний і Нестримний, \n
+                Зорі на небі вмістив \n
+                І дав кожній ім’я, \n
+                Ти Дивовижний Бог! \n
+                Нездоланний і Всесильний, \n
+                Серце моє до глибин \n
+                Вкрила милість Твоя, \n
+                Ти Дивовижний Бог. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

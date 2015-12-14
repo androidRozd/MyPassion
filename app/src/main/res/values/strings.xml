@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">My Passion</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="songs">
+        <item>Агнец в небесах</item>
+        <item>Бесконечный свет</item>
+        <item>Благословлю Тебя</item>
+        <item>Блуждали все как овцы</item>
+        <item>Бог небес и земли</item>
+        <item>Вгору мої</item>
+        <item>Верю я</item>
+        <item>Він знає моє ім`я</item>
+        <item>Вот он я</item>
+        <item>Всем сердцем</item>
+        <item>Все о чем мечтаю</item>
+        <item>В Твоем святом присутствии</item>
+        <item>В Христе одном</item>
+        <item>Господи Великий</item>
+        <item>Господь есть мой свет</item>
+        <item>Дом</item>
+        <item>Жив</item>
+        <item>За те, хто Ти є</item>
+        <item>За Тобой пойду</item>
+        <item>Ім`я Твоє</item>
+        <item>Иисус - мой Спаситель</item>
+        <item>Как лань желает</item>
+        <item>Когда умолкнет звук</item>
+        <item>Краще з Тобою</item>
+        <item>Меня нашел Ты</item>
+        <item>Мы собрались</item>
+        <item>Надія є</item>
+        <item>На початку було Слово</item>
+        <item>Наш Бог великий</item>
+        <item>Небес коснусь</item>
+        <item>Небо і земля</item>
+        <item>Невимовний</item>
+        <item>Нет невозможного</item>
+        <item>Нет никого как Ты</item>
+        <item>О, дивний день</item>
+        <item>Океаны</item>
+        <item>Осанна</item>
+        <item>Петь, петь, петь</item>
+        <item>Поклонюсь Тебе</item>
+        <item>Полони мене</item>
+        <item>Превознесен Царь</item>
+        <item>Превыше власти</item>
+        <item>Прекрасний Ти</item>
+        <item>Радій, радій</item>
+        <item>Разбитые сосуды</item>
+        <item>Силен спасти</item>
+        <item>Скрой меня</item>
+        <item>Свят наш Господь</item>
+        <item>Так, Господь</item>
+        <item>Тобі хвала</item>
+        <item>Только в Тебе</item>
+        <item>Трудно обьяснить</item>
+        <item>Ты обьемлешь меня</item>
+        <item>Хвала, Адонай</item>
+        <item>Хліб життя</item>
+        <item>Эта любовь</item>
+        <item>Я буду славить Господа</item>
+        <item>Я сдаюсь, Бог</item>
+    </string-array>
+    <string name="title_activity_sng1">Агнец в небесах</string>
+    <string name="title_activity_sng2">Бесконечный свет</string>
+    <string name="title_activity_sng3">Благословлю Тебя</string>
+    <string name="title_activity_sng4">Блуждали все как овцы</string>
+    <string name="title_activity_sng5">Бог небес и земли</string>
+    <string name="title_activity_sng6">Вгору мої</string>
+    <string name="title_activity_sng7">Верю я</string>
+    <string name="title_activity_sng8">Він знає моє ім`я</string>
+    <string name="title_activity_sng9">Вот он я</string>
+    <string name="title_activity_sng10">Всем сердцем</string>
+    <string name="title_activity_sng11">Все о чем мечтаю</string>
+    <string name="title_activity_sng12">В Твоем святом присутствии</string>
+    <string name="title_activity_sng13">В Христе одном</string>
+    <string name="title_activity_sng14">Господи великий</string>
+    <string name="title_activity_sng15">Господь есть мой свет</string>
+    <string name="title_activity_sng16">Дом</string>
+    <string name="title_activity_sng17">Жив</string>
+    <string name="title_activity_sng18">За те, хто Ти є</string>
+    <string name="title_activity_sng19">За Тобой пойду</string>
+    <string name="title_activity_sng20">Ім`я Твоє</string>
+    <string name="title_activity_sng21">Иисус - мой Спаситель</string>
+    <string name="title_activity_sng22">Как лань желает</string>
+    <string name="title_activity_sng23">Когда умолкнет звук</string>
+    <string name="title_activity_sng24">Краще з Тобою</string>
+    <string name="title_activity_sng25">Меня нашел Ты</string>
+    <string name="title_activity_sng26">Мы собрались</string>
+    <string name="title_activity_sng27">Надія є</string>
+    <string name="title_activity_sng28">На початку було Слово</string>
+    <string name="title_activity_sng29">Наш Бог великий</string>
+    <string name="title_activity_sng30">Небес коснусь</string>
+    <string name="title_activity_sng31">Небо і земля</string>
+    <string name="title_activity_sng32">Невимовний</string>
+    <string name="title_activity_sng33">Нет невозможного</string>
+    <string name="title_activity_sng34">Нет никого как Ты</string>
+    <string name="title_activity_sng35">О, дивний день</string>
+    <string name="title_activity_sng36">Океаны</string>
+    <string name="title_activity_sng37">Осанна</string>
+    <string name="title_activity_sng38">Петь, петь, петь</string>
+    <string name="title_activity_sng39">Поклонюсь Тебе</string>
+    <string name="title_activity_sng40">Полони мене</string>
+    <string name="title_activity_sng41">Превознесен Царь</string>
+    <string name="title_activity_sng42">Превыше власти</string>
+    <string name="title_activity_sng43">Прекрасний Ти</string>
+    <string name="title_activity_sng44">Разбитые сосуды</string>
+    <string name="title_activity_sng45">Разбитые сосуды</string>
+    <string name="title_activity_sng46">Силен спасти</string>
+    <string name="title_activity_sng47">Скрой меня</string>
+    <string name="title_activity_sng48">Свят наш Господь</string>
+    <string name="title_activity_sng49">Так, Господь</string>
+    <string name="title_activity_sng50">Тобі хвала</string>
+    <string name="title_activity_sng51">Только в Тебе</string>
+    <string name="title_activity_sng52">Трудно обьяснить</string>
+    <string name="title_activity_sng53">Ты обьемлешь меня</string>
+    <string name="title_activity_sng54">Хвала Адонай</string>
+    <string name="title_activity_sng55">Хліб життя</string>
+    <string name="title_activity_sng56">Эта любовь</string>
+    <string name="title_activity_sng57">Я буду славить Господа</string>
+    <string name="title_activity_sng58">Я сдаюсь, Бог</string>
+    <string name="title_activity_sng59">Sng59</string>
+</resources>

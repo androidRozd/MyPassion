@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="             1.Поклонюсь Тебе, Иисус, \n             Я всей душой и телом. \n             Воспою Тебе, Иисус, \n             Я духом сердца своего. \n             Великий, Всемогущий, \n             Бог Великий, Всемогущий. \n"
+                android:textSize="20sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="             2.Ты прости меня, Господь, \n             За все мои сомнения. \n             Вознеси меня, Господь, \n             К вершинам Духа Твоего. \n             Великий  (Бог Великий), \n             Всемогущий (Всемогущий), \n             Бог Великий  (Бог Великий), \n             Люблю Тебя. \n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 Припев: \n                 В своём сердце\n                 Храню Завет Твоей Крови. \n                 В новом сердце\n                 Горит огонь Твоей любви. \n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

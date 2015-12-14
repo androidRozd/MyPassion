@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 Полони мене, \n                 За Собою клич. \n                 Ось я на колінах знов, \n                 Ти, як Друг мені промов. \n                 Спрага Ти моя, \n                 Насолода Ти, \n                 І ніщо у світі цім \n                 Не дарує повноти, \n                 Тільки Ти Один, \n                 Тільки Ти Один. \n"
+                android:textSize="20sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                     Приспів:\n                     В Тобі усе,  \n                     Усе, чого я прагну. \n                     В Тобі усе,   \n                     Вся повнота в Тобі. \n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

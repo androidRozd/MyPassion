@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         1.Возносим руки свои\n         Радость в Господе наша сила. \n         Склонимся и прославим Его, \n         Как велик, как прекрасен Он\n         Мы вместе поём\n"
+                android:textSize="20sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        Припев:\n
+        Свят наш Господь, \n
+        Бог Всемогущий, \n
+        Земля полна Его славы. \n
+        Свят наш Господь,\n
+        Бог Всемогущий, \n
+        Земля полна Его славы. \n
+        Земля полна Его славы. \n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        Мост:\n
+        И слышен вновь со всех сторон\n
+        Гимн Господу и славе Его\n
+        И слышен вновь со всех сторон\n
+        Гимн Господу и славе Его\n
+        Мы вместе поём. Вместе поём\n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

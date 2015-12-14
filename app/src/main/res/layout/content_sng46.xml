@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        1.Нужно всем состраданье, \n
+        Любовь,что бесконечна\n
+        И благодать Твоя\n
+        Нужно всем так прощенье, \n
+        Спасителя любезность\n
+        Надежда мира\n"
+                android:textSize="18sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Припев:\n
+            Спаситель, может сдвинуть горы\n
+            Силен Господь мой спасти\n
+            Всех силен Он спасти\n
+            Вовеки Он Творец спасения\n
+            Воскрес и смерть победил\n
+            Смерть Иисус победил\n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        2.Возьми мои падения\n
+        Страхи и сомнения\n
+        Жизнь наполни вновь\n
+        Тебе отдам все дни я \n
+        Все,во что я так верю\n
+        В Твоих руках,Бог\n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Мост:\n
+            Яркий свет Твой, \n
+            Пусть видит вся земля\n
+            Будем, Петь во славу \n
+            Воскресшего Царя (Иисус) \n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

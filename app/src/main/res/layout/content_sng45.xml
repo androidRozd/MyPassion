@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        1. Ты все осколки разбитой жизни, \n
+        Собрал и склеил по милости. \n
+        Я потерял все, но Ты не бросил, \n
+        Навек меня освободил. \n"
+                android:textSize="17sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                П-Припев: \n
+            О, Благодать, как Ты сладка\n
+            Спасла меня лишь Ты\n
+            Потерян был, но Ты нашла\n
+            Открыв глаза мои\n"
+                android:textSize="17sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Припев: \n
+            О, вижу я Тебя\n
+            Любовь в Твоих глазах вижу я\n
+            Ты жизнь Свою отдал\n
+            Чтоб к жизни всех \n
+            Разбитых призвать\n"
+                android:textSize="17sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        2. Забрав падения и недостатки, \n
+        Свою Ты ценность в нас поместил\n
+        В моем Ты сердце, я Твой сосуд, Бог\n
+        Пусть видит мир, во мне Ты жив\n"
+                android:textSize="17sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

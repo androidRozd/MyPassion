@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        1. В світанках всіх Твоє лице бачу \n
+        В очах Твоїх ранкових кольорів краса\n
+        Світ просинається у променях дня \n
+        До неба лине пісня ця\n
+        Прекрасний Ти. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        2. У світлі місяця знов сила Твоя\n
+        Планети і галактики яскраво бачу я\n
+        І світлом зорі дивують нас всіх\n
+        Усе навколо свідчить Хто Ти\n
+        Прекрасний Ти. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        3. І на хресті Ти висів, і нас  спас\n
+        В крові весь був, помер, \n
+        І знов воскрес Ісус для нас\n
+        Тепер сидиш Ти там на троні небес\n
+        Скоро ми побачим Тебе\n
+        Прекрасний Ти. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        4. На берег вічності народ Твій прийде\n
+        Де смерть – це лише спогади, \n
+        І сльози – пусте\n
+        Весільні дзвони пролунають в той час \n
+        І пісню наречена здійме\n
+        Прекрасний Ти. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

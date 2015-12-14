@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            1.Что скрыто за сияньем звезд? \n
+            Как мне достичь таких высот\n
+            Я искал так высоко\n
+            Но любовь вдруг спустилась к нам\n"
+                android:textSize="16sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Припев: \n
+            Сердце бьется, парит душа\n
+            Отдав себя, обретаю жизнь я\n
+            Стремлюсь выше, мой дух лети\n
+            Небес коснусь, лишь на колени опущусь\n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            2. Бесценны раны, Бог, Твои\n
+            Мы в них свободу обрели\n
+            С Тобой не нужен мне весь мир\n
+            Ведь Ты пришел, чтоб меня спасти\n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Мост: \n
+            Пред Тобою я вновь склонюсь\n
+            Все во мне, Иисус, у ног Твоих возложу я\n
+            Вновь пусть наполнит любовь Твоя\n
+            И парить душа будет в танце навечно\n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 1. Меня нашел Ты\n                 Ты знал мой путь, \n                 Все потому что \n                 Меня Ты Любишь\n"
+                android:textSize="18sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 2. Своею Славой, \n                 Меня покрой, \n                 В любое время \n                 Меня Ты любишь, \n                 Меня Ты любишь\n\"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 Припев: \n             Пред Тобой склоняюсь   я, \n             Кровь пролил Ты за   меня, \n             Нет любви ценней Твоей, \n             Ты из мёртвых восстал\n,             Славою всё осиял, \n             Что разлучит нас с Тобой? \n"
+                android:textSize="17sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 3. Ведешь меня Ты, \n                 Хранишь мой путь, \n                 В Твоих руках я, \n                 Меня Ты любишь\n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Мост: \n
+            Путь показал, завесу сорвал\n
+            Ты сказал сверши лось\n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                4. Когда вокруг вдруг, \n
+                Померкнет всё, \n
+                Ты предо мною, \n
+                Меня Ты Любишь\n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

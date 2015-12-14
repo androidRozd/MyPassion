@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 1.В Твоєму домі Господи,\n                 Приємно бути. \n                 І серцем прагну лиш до Тебе я\n                 В присутності Твоїй завжди\n                 Знаходжу спокій\n                 У тіні Твоїх крил співаю я\n"
+                android:textSize="16sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 Приспів: \n             Краще з Тобою день один\n             Тільки з Тобою в Твоїм домі\n             Краще з Тобою день один, \n             Ніж сотні будь-де\n             Сотні будь-де\n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 2.Побачити красу Твою\n                 Господь бажаю\n                 Знайти Тебе, де слава Твоя є\n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 Мост: \n             Бажаю всім єством\n             Тебе я, Бог Живий, \n             Твій Дух вода душі моїй\n             О, Господи, прошу\n             Прийди до мене знов, \n             І стану ближче я \n             До Тебе мій Господь\n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                1.Здесь опять, \n
+                Я преклоню себя\n
+                Тебе все отдам, \n
+                Тебе все отдам. \n
+                К Себе сейчас, \n
+                Бог, приближай меня\n
+                Отчаянно  я \n
+                Жажду Тебя\n
+                Я сдаюсь, Бог. \n"
+                android:textSize="20sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                2.  Голод мой \n
+                Своей благодатью, Бог\n
+                Сейчас утопи, \n
+                Мой дух напои\n
+                Тянусь душой, верю, \n
+                Крик слышишь мой \n
+                Прошу, говори, \n
+                Со мной говори. \n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Припев: \n
+                Я сдаюсь, Бог, \n
+                Я сдаюсь, Бог\n
+                Чтобы познать Тебя, \n
+                Еще больше знать Тебя\n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Мост: \n
+                Сильным ветром Ты\n
+                Во мне, Иисус, дыши\n
+                В жизни моей\n
+                Волей Своей правь Ты. \n
+                Словно мощный шторм\n
+                Потряси меня, Бог\n
+                В жизни моей \n
+                Волей Своей правь Ты\n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

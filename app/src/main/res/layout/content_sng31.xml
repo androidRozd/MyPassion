@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 1. Любов яка була передбачена\n                 До нас прийшла\n                 Із небес зійшла, для примирення\n                 Сердець з Отцем. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 Приспів 1: \n                 Небо і земля\n                 Зустрілися в Спасителі. \n                 Він повернув життя, \n                 Славне Його Святе Ім’я. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp"
+                android:singleLine="false" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 2. Сьогодні Він живе, надію нам дає, \n                 Веде до дому нас. \n                 Зцілення несе, Його Царство вже\n                 Близько. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 Міст: \n                 Його ранами ми зцілилися, \n                 В Ім’я   Його, В Ім’я Його. \n                 Із полону гріха кожен визволиться, \n                 В Ім’я Його, В Ім’я Його. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

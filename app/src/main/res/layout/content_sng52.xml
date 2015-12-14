@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         1.Трудно объяснить, \n         Трудно описать\n         Ту бесконечную любовь, Твою, \n         Что нашим взглядом не понять. \n         Надежды знаешь ты, \n         На страхи Ты презришь. \n         Как выразить любовь мою к Тебе? \n         Голос наш, Господь, услышь. \n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:textIsSelectable="false"
+                android:singleLine="false"
+                android:phoneNumber="false"
+                android:elegantTextHeight="false"
+                android:editable="false"
+                android:autoText="false"
+                android:allowUndo="false" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="             Припев: \n             Услышь сердца, Господь, \n             Услышь, как дух поёт \n             Вознесёт хвалу  \n             Искупленный народ \n             Как же нам найти слова \n             Сказать, как Ты прекрасен, \n             Наш Господь? \n             Нам слов не хватит вновь, \n             Чтоб петь Тебе любовь. \n             Услышь сердца, Господь. \n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         2.Пусть течёт хвала  \n         Из уст моих рекой. \n         Пролетят столетия, как день, \n         Когда я, Господь, с Тобой. \n         Я знаю: слышишь Ты, Господь, \n         Как сердце говорит: \n         «Благодарю Тебя, Иисус, \n         За путь, за истину и жизнь!» \n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

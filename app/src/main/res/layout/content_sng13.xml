@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+    1.Христом Иисусом хвалиться\n
+    Буду каждый день, Он мой Господь\n
+    Во Христе всем обладаю, \n
+    Он дал победу мне в борьбе с грехом\n
+    О, мне не счесть благодеяний, \n
+    То держу в своей руке	\n
+    Те победные трофеи, \n
+    Потому что Он во мне \n"
+                android:textSize="15sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            Припев: \n
+        В Христе одном спасенья свет, \n
+        Голгофский крест дает мне силы для побед\n
+        Распят Иисус на нем, \n
+        Я ж со-распялся в нем\n
+        Воскрес с Христом, \n
+        Чтоб жить лишь в Нем, Христе одном\n"
+                android:textSize="15sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+    2. Христом Иисусом хвалиться буду, \n
+    Его милостью спасен\n
+    Он восполняет мои нужды, я, забыв про все, \n
+    Cтремлюсь вперед\n
+    Нет мне в жизни больше чести, \n
+    Лишь познавать Его\n
+    Его силу воскресенья, и страдания Его\n"
+                android:textSize="15sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

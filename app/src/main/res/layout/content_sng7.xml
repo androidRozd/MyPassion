@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                1.О, Ты Отец наш Вечный,\n
+                Создатель и Творец, \n
+                Бог Всемогущий. \n
+                От Святого Духа\n
+                Родился Сын Христос, \n
+                Спаситель Иисус наш. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Припев 1: \n
+                Верю я - Ты Бог Отец наш,  \n
+                Верю я - Ты Сын Христос. \n
+                Верю я в Святого Духа,  \n
+                Ты Триедин, Господь. \n
+                Верю я в силу воскресенья,  \n
+                Воскреснем мы в Тебе, \n
+                Ведь верю я в Твое Имя, Иисус. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                2. Судья наш и Защитник \n
+                Страдал и был распят, \n
+                Прощенье в Тебе Бог. \n
+                Сойдя во тьму, Господь наш \n
+                Для славной жизни воскрес, \n
+                Воссел на небесах. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Мост: \n
+                Верю я в Тебя, \n
+                Верю я, что Ты воскрес. \n
+                Верю я, Иисус Христос-Господь. \n
+                Верю я в Тебя, \n
+                Верю я что Ты воскрес. \n
+                Верю я, Иисус Христос-Господь. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Припев 2: \n
+                Жизнь вечную я верю, \n
+                Непорочно Ты был рожден. \n
+                Верю я, есть святых единство, \n
+                И в Твою церковь, Бог. \n
+                Верю я в силу воскресенья, \n
+                Когда Иисус придёт\n
+                Ведь верю я в Твоё Имя, Иисус. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

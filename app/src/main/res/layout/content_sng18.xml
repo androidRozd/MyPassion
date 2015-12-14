@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            1. За те, хто Ти є співаю славу\n
+            За те, хто Ти є Тобі хвала\n
+            За те, хто Ти є я в голос скажу\n
+            Славлю я Тебе, за те, хто ти є\n
+            Славлю я Тебе, за те, хто ти є\n"
+                android:textSize="18sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Приспів: \n
+                Єгова Іре – все передбачив\n
+                Єгова Нісі – в Тебе перемога\n
+                Єгова Шалом – мій миру Князь\n
+                Славлю я Тебе, за те, хто ти є\n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

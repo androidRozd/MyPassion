@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:foregroundGravity="left"
+        android:layout_alignParentLeft="false">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="left"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        1.Блуждали все, как овцы мы.\n
+        Ходили каждый своим путем, \n
+        Все во грехах и лишены Твоей славы, \n
+        Но мы славу желаем видеть Твою,\n
+        В Твоем присутствии вечно быть в раю. \n"
+                android:textSize="16sp"
+                android:textColor="#010101" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            Припев:\n
+        Господь, милость Твою к нам яви, \n
+        В дом Твой святой нас введи. \n
+        Прости наш грех, дай жизнь земле, \n
+        Мы быть хотим в присутствии Твоём. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        2.Наши болезни взяв на Себя, \n
+        Заклан был жертвенный Агнец Иисус. \n
+        Он был презрен, отвержен людьми, \n
+        Он взял наш грех. \n
+        Привлеки нас, Отец, через Сына к Себе, \n
+        Омой кровью Его, дай пасть пред Тобой. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>
+

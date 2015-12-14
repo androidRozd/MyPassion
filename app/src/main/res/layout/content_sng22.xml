@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            1.Как лань желает,\n
+            Как лань желает к потокам воды, \n
+            Так желает душа, \n
+            Так желает душа моя\n
+            К Тебе, мой Бог. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Припев:\n
+                Что унываешь ты, душа моя, \n
+                И что смущаешься? \n
+                Ты уповай на Бога, ибо я\n
+                Буду вечно хвалить Его. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            2.Жаждет душа моя, \n
+            К Богу живому стремится душа, \n
+            Но когда я приду, \n
+            И когда я явлюсь перед\n
+            Лицом Твоим. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            3.Плачу я день и ночь, \n
+            Слезы мои стали хлебом моим, \n
+            И враги мои вновь говорят мне: \n
+            Ну, где же Бог, ну, где твой Бог? \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            4.Днем явит милость, \n
+            Днем Свою милость мне явит Господь, \n
+            Ночью песнь у меня, \n
+            И молитва летит моя\n
+            К Тебе, мой Бог. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

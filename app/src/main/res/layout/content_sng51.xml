@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="             1.Ты значишь больше, \n             Чем слова могли б сказать\n             Ты дал мне свет, \n             Чтобы дорогу показать\n             Ты светишь ярко, \n             Так, что я могу видеть\n             Твою любовь ко мне. \n"
+                android:textSize="20sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="             2. Я не хочу прожить ни дня, \n             Не коснувшись Тебя\n             В Твоем тайном месте, \n             Вот, где я быть хочу\n             В Твоем присутствии есть все, \n             Что нужно мне \n             Ты – моя жизнь, любовь. \n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                 Припев: \n                 Только в Тебе моя нужда \n                 Ты Бог один лишь для меня \n                 Я могу дышать, ходить\n                 Если Ты позволишь мне. \n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            3. Как сладко знать, \n
+            Что Ты так близко подошел\n
+            И я хочу всю жизнь \n
+            Сложить к Твоим ногам\n
+            Твое желанье я познать хочу\n
+            Ты моя песня, мелодия. \n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Мост: \n
+                Ты – мое убежище, \n
+                Ты – мой покой\n
+                Твое Слово, Боже, \n
+                Открывает правду во мне\n
+                В Тебе есть защита, \n
+                Которую я ищу\n
+                Утренняя звезда, \n
+                Хочу быть там, где Ты\n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Вставка: \n
+                Боже, я тебя обожаю, \n
+                И Твое Имя я благословлю\n
+                Боже, я тебя обожаю\n"
+                android:textSize="20sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

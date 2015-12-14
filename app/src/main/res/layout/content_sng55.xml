@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        1.Хліб життя, жива вода\n
+        Світло для світу, Божий Син. \n
+        Виноградна лоза, Правда і Шлях\n
+        Пастир добрий, миру Цар. \n"
+                android:textSize="18sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            Приспів: \n
+        Ісус, Ти мій Господь, мій Бог\n
+        Ти знаєш мій шлях, кожен мій крок. \n
+        Ісус любов`ю смерть здолав\n
+        Зі мною Ти, Вічний, Святий. \n
+        Хвала… Хвала…\n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+        2.Цар царів, Воскресіння й Життя\n
+        Агнець Божий, Початок і Кінець. \n
+        Слово вічне, Двері вівцям\n
+        Дивний Порадник, Ранкова зоря. \n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

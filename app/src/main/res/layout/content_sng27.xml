@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                1.Коли шторм життя\n
+                Все нищить навкруги\n
+                Я покладуся на Христа\n
+                Виправлю я зір свій \n
+                Щоб прокласти шлях свій\n
+                Тільки на Тебе дивлюсь\n"
+                android:textSize="18sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Вставка: \n
+                Відчуваю Твою присутність\n
+                Наче вітер могутній\n
+                Нехай він все в мені змінить \n
+                І дасть перемогу\n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Приспів: \n
+                Надія є, вона живе\n
+                Благодать Твоя без меж\n
+                І милість над усе, \n
+                Віра суне гори, \n
+                Почуй земле, надія є! \n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Міст: \n
+                Збудована надія вся, \n
+                На крові Ісуса Христа\n
+                Нема ніде міцнішого\n
+                Ніж праведне Ім`я  Його\n
+                На твердій скелі  я стою\n
+                Все інше тоне у піску\n
+                Все інше тоне у піску\n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

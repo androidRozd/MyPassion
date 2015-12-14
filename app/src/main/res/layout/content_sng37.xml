@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            1.Я вижу, как Царь славы  \n
+            В облаке идет с огнем\n
+            Трепещет все, трепещет все\n
+            Я вижу, как любовью \n
+            Все грехи омоет Он\n
+            Земля поет, земля поет \n"
+                android:textSize="19sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Припев: \n
+                Осанна! Осанна! \n
+                Осанна Богу в вышних |2р\n"
+                android:textSize="19sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            2.Я вижу поколение \n
+            С верой искренней встает\n
+            Занять свой пост, \n
+            Занять свой пост\n
+            Я вижу, как с молитвой \n
+            Пробужденье к нам придет\n
+            Склонимся вновь, \n
+            Склонимся вновь\n"
+                android:textSize="19sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Мост:\n
+            Мне сердце исцели, омой\n
+	        В мир невидимый мне глаза открой\n
+	        Научи любить, как Ты всех любишь\n
+	        Сделай боль Свою моей\n
+	        Я Царствию отдам все, \n
+	        Что есть во мне\n
+	        Так пройду свой путь земной \n
+	        Я к Вечности\n"
+                android:textSize="18sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

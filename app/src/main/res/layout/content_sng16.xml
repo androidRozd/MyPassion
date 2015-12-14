@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            1. С громкой хвалой из сердца\n
+            В дом Твой я бегу опять. \n
+            Каждый день с утра пою я гимн \n
+            Это песня для Тебя\n"
+                android:textSize="16sp"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                    Мост: \n
+                    В Твоем присутствии \n
+                    Быть хочу, мой Бог\n
+                    Возносить Твой трон\n
+                    Во дворах Твоих \n
+                    Всегда найду свой мир\n
+                    Я там найду свой…\n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Припев: \n
+                Дом небесный\n
+                Однажды буду я\n
+                Вечно жить склоняясь \n
+                У ног Твоих всегда\n
+                Скрой меня\n
+                Ты под тенью крыл Своих\n
+                Где буду я жить, \n
+                Там буду я жить. \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+            2. Мне так нужна Твоя любовь\n
+            Я лицо Твое ищу\n
+            Верю, Ты слышишь крик души\n
+            Знаешь все, о чем прошу \n"
+                android:textSize="16sp"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>

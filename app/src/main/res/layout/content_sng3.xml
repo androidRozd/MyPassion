@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|left"
+    android:background="@drawable/abv">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="                 1.Благословлю Тебя\n                 В земле изобилия\n                 Бог Наполняющий – \n                 Будь благословен!\n                 Благословлю Тебя, \n                 В земле испытания\n                 Бог Защищающий – \n                 Будь благословен\n"
+                android:textColor="#010101"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="                 За твои благословения\n                 Воздам хвалу\n                 И когда я в сокрушении\n                 Тебе скажу…\n"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="                 Припев:\n                 Будь благословен мой Господь!\n                 Будь благословен\n                 Будь благословен мой Господь!\n                 Пусть святится имя Твое\n"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="
+                2.Благословлю Тебя\n
+                В лучах света Твоего\n
+                Бог Освящающий\n
+                Будь благословен\n
+                Благословлю Тебя\n
+                Когда я не вижу путь\n
+                Бог Направляющий\n
+                Будь благословен\n"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="
+                Мост: \n
+                Господь, Ты все даешь\n
+                И можешь все забрать\n
+                Но я Тебя всегда\n
+                Буду прославлять\n"
+                android:textColor="#010101"
+                android:paddingTop="10dp" />
+        </LinearLayout>/>
+    </ScrollView>
+</RelativeLayout>
